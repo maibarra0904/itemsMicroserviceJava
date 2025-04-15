@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
-import org.springframework.web.reactive.function.client.WebClientResponseException;
+//import org.springframework.web.reactive.function.client.WebClientResponseException;
 import org.springframework.web.reactive.function.client.WebClient.Builder;
 
 import com.mario.items.models.Item;
@@ -47,7 +47,7 @@ public class ItemServiceWebClient implements ItemService {
         params.put("id", id);
         Random rand = new Random();
 
-        try {
+        //try {
             return this.client.build()
                 .get()
                 .uri("/{id}", params)
@@ -56,9 +56,9 @@ public class ItemServiceWebClient implements ItemService {
                 .bodyToMono(Product.class)
                 .map(p -> new Item(p, rand.nextInt(10) + 1))
                 .blockOptional();    
-        } catch (WebClientResponseException e) {
-            return Optional.empty();
-        }
+        // } catch (WebClientResponseException e) {
+        //     return Optional.empty();
+        // }
 
         
     }
