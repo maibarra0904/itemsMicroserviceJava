@@ -1,5 +1,22 @@
-{"properties": [{
-  "name": "config.baseurl.endpoint.products",
-  "type": "java.lang.String",
-  "description": "A description for 'config.baseurl.endpoint.products'"
-}]}
+{"properties": [
+  {
+    "name": "config.baseurl.endpoint.products",
+    "type": "java.lang.String",
+    "description": "A description for 'config.baseurl.endpoint.products'"
+  },
+  {
+    "name": "spring.cloud.config.uri",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.config.uri'"
+  },
+  {
+    "name": "configuracion.text",
+    "type": "java.lang.String",
+    "description": "A description for 'configuracion.text'"
+  },
+  {
+    "name": "management.endpoints.web.exposure.include",
+    "type": "java.lang.String",
+    "description": "A description for 'management.endpoints.web.exposure.include'"
+  }
+]}
