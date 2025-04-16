@@ -4,7 +4,8 @@ import java.util.List;
 import java.util.Optional;
 
 import com.mario.items.models.Item;
-import com.mario.items.models.Product;
+import com.mario.libs.msvc.commons.entities.Product;
+
 
 public interface ItemService {
 

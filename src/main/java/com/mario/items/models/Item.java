@@ -1,5 +1,7 @@
 package com.mario.items.models;
 
+import com.mario.libs.msvc.commons.entities.Product;
+
 public class Item {
 
     private Product product;

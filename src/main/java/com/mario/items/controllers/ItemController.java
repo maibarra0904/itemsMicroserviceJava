@@ -30,8 +30,9 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mario.items.models.Item;
-import com.mario.items.models.Product;
+
 import com.mario.items.services.ItemService;
+import com.mario.libs.msvc.commons.entities.Product;
 
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import io.github.resilience4j.timelimiter.annotation.TimeLimiter;

@@ -9,7 +9,8 @@ import org.springframework.stereotype.Service;
 
 import com.mario.items.clients.ProductFeignClient;
 import com.mario.items.models.Item;
-import com.mario.items.models.Product;
+import com.mario.libs.msvc.commons.entities.Product;
+
 
 @Service
 public class ItemServiceFeign implements ItemService {

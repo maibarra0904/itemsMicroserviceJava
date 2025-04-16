@@ -14,7 +14,8 @@ import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.reactive.function.client.WebClient.Builder;
 
 import com.mario.items.models.Item;
-import com.mario.items.models.Product;
+import com.mario.libs.msvc.commons.entities.Product;
+
 
 @Primary
 @Service

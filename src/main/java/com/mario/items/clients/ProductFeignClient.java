@@ -10,7 +10,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.mario.items.models.Product;
+import com.mario.libs.msvc.commons.entities.Product;
+
+
 
 @FeignClient(name = "products")
 public interface ProductFeignClient {
